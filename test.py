@@ -19,7 +19,7 @@ class Test(unittest.TestCase):
         result = self.app.get('/') 
 
         # verifica o retorno do conteudo da pagina
-        self.assertRegex(result.data.decode(), "Palmeiras não tem mundial...e em 2018 vai continuar sem !!!.")
+        self.assertRegex(result.data.decode(), "N3 da computecnica é tudo XABI")
 
 
 if __name__ == "__main__":
